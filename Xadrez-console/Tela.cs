@@ -16,7 +16,7 @@ namespace Xadrez_console
                 {
 
                     imprimirPeca(tab.peca(i, j));
-                    Console.Write(" ");
+                    
 
                 }
                 Console.WriteLine();
@@ -43,8 +43,7 @@ namespace Xadrez_console
                         Console.BackgroundColor = fundoOriginal;
                     }
 
-                    imprimirPeca(tab.peca(i, j));
-                    Console.Write(" ");
+                    imprimirPeca(tab.peca(i, j));                    
                     Console.BackgroundColor = fundoOriginal;
 
                 }
